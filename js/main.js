@@ -6,17 +6,23 @@
 
 // stampo numeri da 1 a 100
 for (let i = 1; i <= 100; i++) {
-    console.log("1")
+    // mi chiedo come faccio a stampare per i multipli dei numeri interessati
+    // mi chiedo come faccio a dire alla macchina di sostituire i numeri con le risposte che voglio
+    // applico il tutto tenendo a mente che bisogna rispettare l'ordine degli if else
+    /* if (i % 3 != 0 && i % 5 !=0 ){
+        console.log(i)
+    }
+    */
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log("FizzBuzz")
+    } else if (i % 3 == 0){
+        console.log("Fizz")
+    } else if (i % 5 == 0){
+        console.log("Buzz")
+    } else {
+        console.log(i)
+    }
 }
 
-//devo far stamapre per i multipli di 3 fizz come faccio ?
-
-
-
-// devo far stampare per i multipli di 5 buzz come faccio?
-
-
-
-// stampare per i multipli di 3 e 5 fizzbuzz 
 
 
